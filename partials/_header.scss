@@ -1,0 +1,52 @@
+/* Pagina de index*/
+.header {
+    background: linear-gradient(90deg, rgba(185, 65, 54, 0.931) 0%, rgb(89, 47, 100) 15%, rgba(73,9,121,1) 35%, rgba(155,75,137,1) 56%, rgba(166,0,255,0.8801645658263305 ) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    .logo {
+        height: 10vh;
+        &:hover {
+            transform: scale(1.5);
+          }
+      }
+    .ul1 {
+        align-items: center;
+        gap: 2rem;
+        border: 2px solid rgb(55, 60, 63);
+        background-color: white;
+        border-radius: 10px;
+        transition: 1s;
+        .link-header {
+            font-family:lemon ;
+            padding: 0.7rem;
+            text-decoration: none;
+            color: rgb(50, 50, 50);
+        }
+    }
+    .rotate-hover:hover {
+          background-color: rgb(195, 83, 199);
+          transform: rotate(360deg);
+    }
+    .div-header {
+        .div-form {
+            input{
+            margin-bottom: 0.5rem; 
+        }
+            button {
+            align-self: flex-start; 
+        }
+        }
+    }
+}
+.main-header{
+    .header1{
+        width: 150%;
+        .logo1{
+            height: 40vh;
+        }
+    }    
+}
+
+
+ 
