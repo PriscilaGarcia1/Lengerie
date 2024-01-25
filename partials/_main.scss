@@ -157,12 +157,13 @@
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
-    font-family:courgette;
     .header1 {
         .logo1{
             width: 15%;
             &:hover {
                 transform: scale(1.2);
+            } h1{
+                font-family: courgette;
             }
         }
     }
